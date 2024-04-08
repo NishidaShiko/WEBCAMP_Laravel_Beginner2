@@ -1,10 +1,11 @@
-@extends('test.layout')
-
-{{-- メインコンテンツ --}}
-@section('contents')
-        <form action="/test/input" method="post">
-            email:<input name="email"><br>
-            パスワード:<input name"password" type="password"><br>
-            <button>送信する</button>
-        </form>
-@endsection
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>formテスト</title>
+    </head>
+    <body>
+@yield('contets')
+    </body>
+</html>
