@@ -1,3 +1,5 @@
+@extends('test.layout')
+
 
 @section('contets')
         <form action="/test/input" method="post">
