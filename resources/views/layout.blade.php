@@ -6,6 +6,6 @@
         <title>formテスト</title>
     </head>
     <body>
-@yield('contets')
+        @yield('contets')
     </body>
 </html>
