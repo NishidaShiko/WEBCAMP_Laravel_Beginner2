@@ -1,10 +1,11 @@
-@extends('test.layout')
+@extends('layout')
 
 {{-- メインコンテンツ --}}
 @section('contents')
-        <form action="/test/input" method="post">
+        <h1>ログイン</h1>
+        <form action="/login" method="post">
             email:<input name="email"><br>
             パスワード:<input name"password" type="password"><br>
-            <button>送信する</button>
+            <button>ログインする</button>
         </form>
 @endsection
